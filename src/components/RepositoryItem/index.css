@@ -1,0 +1,52 @@
+.repository-item {
+  display: flex;
+  flex-direction: column;
+  background-color: #f8f8ff;
+  width: 230px;
+  justify-content: center;
+  border-radius: 22px;
+  padding: 20px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.icons-container {
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+.avatar-name {
+  margin: 14px;
+  font-size: 22px;
+  text-align: center;
+  font-weight: 500;
+  color: #e73959;
+}
+
+.icon-container {
+  display: flex;
+  align-items: center;
+  line-height: 3px;
+}
+
+.avatar-url {
+  width: 80px;
+  align-self: center;
+}
+
+.icon {
+  width: 16px;
+  margin-right: 12px;
+}
+
+@media screen and (max-width: 576px) {
+  .repository-item {
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .repository-item {
+    width: 90%;
+  }
+}

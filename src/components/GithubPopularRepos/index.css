@@ -1,0 +1,90 @@
+.bg-container {
+  min-height: 100vh;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin: auto;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.popular-repos-heading {
+  font-family: 'Lobster';
+  font-size: 45px;
+  text-align: center;
+  color: #0f172a;
+}
+
+.filter-items-container {
+  width: 550px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-left: 0px;
+  list-style-type: none;
+  font-family: 'Roboto';
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.failure-view {
+  width: 500px;
+  height: 385px;
+}
+
+.loading-view {
+  width: 100%;
+  text-align: center;
+}
+
+.repositories-container {
+  width: 55%;
+  align-self: center;
+  padding-left: 0px;
+  list-style-type: none;
+  font-family: 'Roboto';
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.error-message {
+  text-align: center;
+  color: #334155;
+  font-family: 'Bree Serif';
+  font-size: 48px;
+}
+
+@media screen and (max-width: 767px) {
+  .error-message {
+    font-size: 28px;
+  }
+
+  .failure-view {
+    width: 250px;
+    height: 180px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .filter-items-container {
+    width: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: flex-start;
+  }
+
+  .repositories-container {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .filter-items-container {
+    width: 300px;
+  }
+}

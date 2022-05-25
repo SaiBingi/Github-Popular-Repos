@@ -1,0 +1,35 @@
+.language-button {
+  font-weight: 600;
+  font-size: 18px;
+  justify-content: center;
+  cursor: pointer;
+  background-color: transparent;
+  color: #1e293b;
+  border: none;
+  padding: 5px 18px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.active-language-filter-button {
+  color: #0284c7;
+  border: 1px solid #0284c7;
+  border-radius: 20px;
+}
+
+@media screen and (max-width: 576px) {
+  .language-button {
+    margin: auto;
+    margin-bottom: 20px;
+    justify-content: flex-start;
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .language-button {
+    margin-left: 4px;
+    margin-right: 4px;
+  }
+}
